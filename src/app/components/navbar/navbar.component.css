@@ -1,0 +1,52 @@
+.bg-light{
+background-color: #fcc6e0
+}
+.bg-light{
+    background-color: #fcc6e0
+}
+#nav{
+    background-color: #fcc6e0 ;
+   
+}
+
+h1{
+    margin:0;
+}
+#head{
+    background-color: antiquewhite;
+    width:100%;
+    margin:0 0 0 0;
+    
+}
+#navbar{
+    width:100%;
+    background-color: antiquewhite;
+    border-bottom:	#D2691E 5px solid;
+    font-size:20px;
+}
+#branding{
+    width:95%;
+    margin:auto;
+    font:italic;
+    font-family:Arial;
+    color:brown;
+    padding:0px;
+    text-align:center;
+    font-size:100px
+}
+#branding2{
+    color:green;
+}
+#admin{
+    float:right;
+}
+
+.bla{
+    background-color: antiquewhite;
+    
+}
+nav{
+    width:90%;
+    margin:auto
+}
+
