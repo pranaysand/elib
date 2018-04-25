@@ -7,7 +7,14 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { AdminComponent } from './components/admin/admin.component';
+import {RouterModule,Routes} from "@angular/router";
+import { AppRoutingModule } from './/app-routing.module';
 
+//Creating Routes
+const appRoute:Routes=[
+  {path:'admin',component:AdminComponent},
+ 
+]
 
 
 
@@ -25,7 +32,10 @@ import { AdminComponent } from './components/admin/admin.component';
     BrowserModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    RouterModule.forRoot(appRoute),
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
