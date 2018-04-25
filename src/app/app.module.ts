@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { AdminComponent } from './components/admin/admin.component';
+
 
 
 
@@ -13,6 +15,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
   declarations: [
     AppComponent,
     NavbarComponent,
+    AdminComponent,
+   
 
    
   ],
